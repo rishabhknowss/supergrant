@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 export const LandingPage = () => {
+    const navigate = useNavigate();
     return (
       <div className="min-h-screen bg-white text-black  flex mt-20 justify-center px-4">
         <div className="max-w-7xl mx-auto py-20 text-center">
@@ -13,7 +16,7 @@ export const LandingPage = () => {
   
           {/* Button */}
           <div className="mt-10">
-            <button className="shadow-xl shadow-blue-500 text-xl md:text-2xl cursor-pointer bg-blue-600 px-6 py-2 md:px-8 md:py-3 rounded-full text-white hover:bg-blue-700 transition-colors">
+            <button onClick={()=>navigate('/search')} className="shadow-xl shadow-blue-500 text-xl md:text-2xl cursor-pointer bg-blue-600 px-6 py-2 md:px-8 md:py-3 rounded-full text-white hover:bg-blue-700 transition-colors">
               Get Started
             </button>
           </div>

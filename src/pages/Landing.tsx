@@ -7,10 +7,10 @@ export const LandingPage = () => {
   return (
     <div className="bg-gradient-to-b from-[#e0f2ff] via-[#b3d8ff] to-[#a1c4fd]">
     <Navbar />
-    <div className="min-h-screen flex justify-center px-4  text-black">
+    <div className="min-h-screen flex justify-center px-4  text-black mt-28">
       
       <div className="max-w-7xl mx-auto py-20 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+        <h1 className="text-5xl md:text-6xl font-bold leading-tight">
           Your <span className="text-blue-600">Scholarships</span> Search
           Simplified
           <br />
